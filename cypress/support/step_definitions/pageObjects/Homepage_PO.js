@@ -8,6 +8,11 @@ class Homepage_PO {
         cy.get('[data-testid="home-search-bar"]').click({force:true})
     }
 
+    clickOn_trending(){
+        cy.get('[data-testid="nav-category-trending-now"]').click({force:true})
+
+    }
+
 
 
 
